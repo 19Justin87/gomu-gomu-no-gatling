@@ -1,3 +1,4 @@
+Begin
 //! General configuration
 
 use std::path::PathBuf;
@@ -157,3 +158,4 @@ where
         CairoShortStringToFeltError::StringTooLong => D::Error::custom("string too long"),
     })
 }
+End
